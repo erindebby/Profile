@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ERIN.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+   color: #fff;
+   font-size: 70px;
+}
+
+.pageSidebar1{
+    background-color: rgba(52, 73, 94,0.7);
+    width: 21%;
+    margin: 2% 0 2% 2%;
+    padding: 3% 3%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+
+    .container {
+        padding: 80px 120px;
+    }
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+
+  .welcome_inner .welcome_img {
+    background: #eeeeee;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px; }
+    .welcome_inner .welcome_img img {
+      margin-top: -30px; }
+  
+  .welcome_text {
+    margin-top: 45px; }
+    .welcome_text h4 {
+      color: #222222;
+      font-family: "Heebo", sans-serif;
+      font-size: 36px;
+      margin-bottom: 18px;
+      text-transform: uppercase; }
+    .welcome_text p {
+      max-width: 495px;
+      line-height: 24px;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      margin-bottom: 40px; }
+  
+  .wel_item {
+    border: 1px solid #eeeeee;
+    padding: 30px 25px;
+    border-radius: 5px; }
+    .wel_item i {
+      font-size: 24px;
+      background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+    .wel_item h4 {
+      font-size: 24px;
+      font-family: "Heebo", sans-serif;
+      font-weight: bold;
+      color: #222222;
+      margin-bottom: 5px;
+      margin-top: 10px; }
+    .wel_item p {
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      color: #777777;
+      margin-bottom: 0px; }
+  
+  .tools_expert {
+    box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
+    padding: 50px 35px; }
+    .tools_expert h3 {
+      color: #222222;
+      font-size: 21px;
+      text-transform: uppercase; }
+    .tools_expert .skill_main .skill_item {
+      margin-bottom: 18px; }
+      .tools_expert .skill_main .skill_item:last-child {
+        margin-bottom: 0px; }
+      .tools_expert .skill_main .skill_item h4 {
+        text-align: right;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: #777777;
+        margin-bottom: 15px; }
+      .tools_expert .skill_main .skill_item .progress {
+        height: 20px;
+        border-radius: 10px;
+        background: transparent;
+        border: 1px solid #eeeeee;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.2); }
+        .tools_expert .skill_main .skill_item .progress .progress-bar {
+          width: 0%;
+          transition: width .6s ease;
+          height: 10px;
+          border-radius: 5px;
+          vertical-align: middle;
+          align-self: center;
+          background-image: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+          background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+          background-image: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); }
+  
+  /* End Welcome Area css
+  ============================================================================================ */
+  
